@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		370CC5D62277E15000E0B909 /* LZZFUTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 370CC5D52277E15000E0B909 /* LZZFUTools.m */; };
 		374160A622770582001E09E6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 374160A522770582001E09E6 /* AppDelegate.m */; };
 		374160A922770582001E09E6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 374160A822770582001E09E6 /* ViewController.m */; };
 		374160AC22770582001E09E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 374160AA22770582001E09E6 /* Main.storyboard */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		370CC5D42277E15000E0B909 /* LZZFUTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZZFUTools.h; sourceTree = "<group>"; };
+		370CC5D52277E15000E0B909 /* LZZFUTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZZFUTools.m; sourceTree = "<group>"; };
 		374160A122770582001E09E6 /* LZZFoundationUtilsHost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LZZFoundationUtilsHost.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		374160A422770582001E09E6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		374160A522770582001E09E6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -78,6 +81,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		370CC5D32277E0C600E0B909 /* LZZFoundationUtils */ = {
+			isa = PBXGroup;
+			children = (
+				370CC5D42277E15000E0B909 /* LZZFUTools.h */,
+				370CC5D52277E15000E0B909 /* LZZFUTools.m */,
+			);
+			path = LZZFoundationUtils;
+			sourceTree = "<group>";
+		};
 		3741609822770582001E09E6 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +113,7 @@
 		374160A322770582001E09E6 /* LZZFoundationUtilsHost */ = {
 			isa = PBXGroup;
 			children = (
+				370CC5D32277E0C600E0B909 /* LZZFoundationUtils */,
 				374160A422770582001E09E6 /* AppDelegate.h */,
 				374160A522770582001E09E6 /* AppDelegate.m */,
 				374160A722770582001E09E6 /* ViewController.h */,
@@ -265,6 +278,7 @@
 				374160A922770582001E09E6 /* ViewController.m in Sources */,
 				374160B422770583001E09E6 /* main.m in Sources */,
 				374160A622770582001E09E6 /* AppDelegate.m in Sources */,
+				370CC5D62277E15000E0B909 /* LZZFUTools.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
