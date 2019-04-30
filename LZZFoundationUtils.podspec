@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "LZZFoundationUtils"
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.3"
   spec.summary      = "A utils collection for ios development"
 
   # This description is used to generate tags and improve search results.
@@ -83,7 +83,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/luzizheng/lZZFoundationUtils.git", :tag => "0.0.2" }
+  spec.source       = { :git => "https://github.com/luzizheng/LZZFoundationUtils.git", :tag => "0.0.3" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
