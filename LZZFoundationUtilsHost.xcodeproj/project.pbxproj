@@ -54,6 +54,7 @@
 		374160C422770583001E09E6 /* LZZFoundationUtilsHostUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LZZFoundationUtilsHostUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		374160C822770583001E09E6 /* LZZFoundationUtilsHostUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZZFoundationUtilsHostUITests.m; sourceTree = "<group>"; };
 		374160CA22770583001E09E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		378828A422781D580062EDF9 /* LZZFoundationUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZZFoundationUtils.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +85,7 @@
 		370CC5D32277E0C600E0B909 /* LZZFoundationUtils */ = {
 			isa = PBXGroup;
 			children = (
+				378828A422781D580062EDF9 /* LZZFoundationUtils.h */,
 				370CC5D42277E15000E0B909 /* LZZFUTools.h */,
 				370CC5D52277E15000E0B909 /* LZZFUTools.m */,
 			);
